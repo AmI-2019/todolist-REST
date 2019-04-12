@@ -1,0 +1,14 @@
+API for the TODO LIST
+
+ENDPOINT: http://localhost/api/v1
+
+/task	-> lisk of tasks
+/task/1 -> one specific task 
+
+GET /task -> read list of all tasks || of all task IDs
+
+GET /task/1 -> get full representation for the specific task #1
+
+POST /task -> add new task (body: {todo: string})
+
+DELETE /task/1 -> remove the specific task from the list
